@@ -1,12 +1,9 @@
-import pygame
-import sys
+import sys, pygame
 
-#from const import *
-#import const
-
+from const import *
 from chess_game import Game
-from chess_board import Square
 from chess_move import Move
+from chess_board import Square
 
 '''
 # Game Screen dimension constants
