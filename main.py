@@ -4,6 +4,8 @@ import sys
 #from const import *
 import const
 
+from chess_game import Game
+
 
 
 class Main:
