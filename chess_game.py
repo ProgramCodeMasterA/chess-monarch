@@ -53,7 +53,6 @@ class Game:
 
     def __init__(self):
         self.board = Board()
-        self.ai = AI()
         self.config = Config()
         self.dragger = Dragger()
         self.next_player = 'white'
