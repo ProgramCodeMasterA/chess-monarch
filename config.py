@@ -11,16 +11,12 @@ class Color:
 
 class Theme:
 
-    def __init__(self, light_bg, dark_bg, 
-                       light_trace, dark_trace,
-                       light_moves, dark_moves):
-        
+    def __init__(self, light_bg, dark_bg, light_trace, dark_trace, light_moves, dark_moves):
         self.bg = Color(light_bg, dark_bg)
         self.trace = Color(light_trace, dark_trace)
         self.moves = Color(light_moves, dark_moves)
 
 class Config:
-
     def __init__(self):
         self.themes = []
         self._add_themes()
@@ -44,4 +40,3 @@ class Config:
         gray = Theme((120, 119, 118), (86, 85, 84), (99, 126, 143), (82, 102, 128), '#C86464', '#C84646')
 
         self.themes = [green, brown, blue, gray]
-
