@@ -5,7 +5,8 @@ import sys
 import const
 
 from chess_game import Game
-
+from chess_board import Square
+from chess_move import Move
 
 
 class Main:
